@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            margin-top: 58px;
+            font-family: "Inter";
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+        .jumbotron {
+            background-color: cadetblue;
+        }
+        .btn-register {
+        background-color: #4CAF4F;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+        }
+        .btn-register:hover {
+            background-color: #43a047;
+        }
+        .background-header {
+            background-color: #F5F7FA;
+            height: 450px;
+            background-size: cover;
+            position: relative;
+        }
+        .clients {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar navbar-expand-xl bg-white fixed-top">
+        <div class="container my-1">
+            <a href="index.html" class="navbar-brand"><img src="images/Logo.png" alt=""></a>
+
+            <button class="navbar-toggler" type="button"data-bs-toggle="collapse"data-bs-target="#navbarContent"aria-controls="navbarContent"aria-expanded="false"aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto">
+                    <div class="d-flex align-items-center">
+                        <li class="nav-item active"> <a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#features">Features</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#community">Community</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#blog">Blog</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#pricing">Pricing</a></li>
+                    </div>
+                    <li class="nav-item btn btn-register mx-2"> <a class="nav-link text-light " style="" href="#about">Register Now <svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                                viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg></a></li>
+                </ul>
+            </div>
+        </div>
+     </nav>
+
+    <!-- header -->
+    <header class="jumbotron background-header pt-5 mb-5">
+        <div class="container-fluid row">
+            <div class="col-8 d-flex align-items-center flex-column my-5">
+                <div class="d-flex flex-column">
+                    <h1 style="font-weight: bold; color: #4D4D4D; font-size: 60px;">Lessons and insights</h1>
+                    <h2 style="font-weight: bold; color: #4CAF4F; font-size: 45px;">from 8 years</h2>
+                    <p style="color: #4D4D4D;">Where to grow your business as a photographer: site or social media?</p>
+                    <div class="d-flex justify-content-start">
+                        <a href="" class="btn btn-register text-light py-2 px-4">Register</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 d-flex">
+                <img src="./images/Illustration.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- features -->
+     <section id="features" class="container">
+        <div class="d-flex flex-column align-items-center">
+            <h1 style="color: #4D4D4D;font-size: 30px;">Our Clients</h1>
+            <p style="color: #4D4D4D; font-size: 14px;">We have been working with some Fortune 500+ clients</p>
+        </div>
+        <div class="d-flex justify-content-around mt-2 mb-5 mx-5">
+                <img class="clients" src="images/Logo.svg" alt="">
+                <img class="clients" src="images/Logo (1).svg" alt="">
+                <img class="clients" src="images/Logo (2).svg" alt="">
+                <img class="clients" src="images/Logo (3).svg" alt="">
+                <img class="clients" src="images/Logo (4).svg" alt="">
+                <img class="clients" src="images/Logo (5).svg" alt="">
+                <img class="clients" src="images/Logo (6).svg" alt="">
+        </div>
+     </section>
+
+     <!-- community -->
+      <section id="community" class="container">
+            <div class="d-flex flex-column align-items-center">
+            <h1 style="color: #4D4D4D;font-size: 30px;">Manage your entire community in a single system</h1>
+            <p style="color: #4D4D4D; font-size: 14px;">Who is Nextcent suitable for?</p>
+        </div>
+        <div class="d-flex justify-content-around mt-3 mb-5">
+                <div class="d-flex flex-column align-items-center text-center" style="width: 200px;">
+                    <img style="width: 80px;" src="images/Icon.svg" alt="">
+                    <h1 style="color: #4D4D4D;font-size: 30px;">Membership Organisations</h1>
+                    <p style="color: #4D4D4D; font-size: 14px;">Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+                <div class="d-flex flex-column align-items-center text-center" style="width: 200px;">
+                    <img style="width: 80px;" src="images/Icon (1).svg" alt="">
+                    <h1 style="color: #4D4D4D;font-size: 30px;">National Associations</h1>
+                    <p style="color: #4D4D4D; font-size: 14px;">Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+                <div class="d-flex flex-column align-items-center text-center" style="width: 200px;">
+                    <img style="width: 80px;" src="images/Icon (2).svg" alt="">
+                    <h1 style="color: #4D4D4D;font-size: 30px;">Clubs And Groups</h1>
+                    <p style="color: #4D4D4D; font-size: 14px;">Our membership management software provides full automation of membership renewals and payments</p>
+                </div>
+        </div>
+      </section>
+
+      <!-- blog -->
+    <section id="blog" class="container">
+        <div class="row" style="height: 200px;">
+            <div class="col-5">
+                <img style="width: 90%" src="./images/Frame 35.svg" alt="">
+            </div>
+                <div class="col-7 d-flex align-items-center justify-content-center flex-column px-5">
+                    <div class="d-flex flex-column">
+                        <h1 style="font-weight: bold; color: #4D4D4D; font-size: 35px;">How to design your site footer like we did</h1>
+                        <p style="color: #4D4D4D;">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+                        <div class="d-flex justify-content-start">
+                            <a href="" class="btn btn-register text-light py-2 px-4">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5" style="margin-top: 200px; background-color: #F5F7FA;">
+        <div class="container" style="height: 130px;">
+            <div class="row">
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <div class="d-flex flex-column">
+                    <h1 style="font-weight: bold; color: #4D4D4D; font-size: 35px;">Helping a local</h1>
+                    <h2 style="font-weight: bold; color: #4CAF4F; font-size: 30px;">business reinvent itself</h2>
+                    <p style="color: #4D4D4D;">We reached here with our hard work and dedication</p>
+                </div>
+            </div>
+                <div class="col-6 d-flex align-items-center justify-content-center flex-column">
+                    <div class="row mx-auto">
+                        <div class="col-6 d-flex">
+                            <img style="height: 50px;" src="images/Icon (3).svg" alt="">
+                            <div class="d-flex flex-column mx-2 justify-content-center">
+                                <h2 style="color: #4D4D4D; font-size: 20px;">2,245,341</h2>
+                                <p style="font-size: 10px; color: #4D4D4D;">Members</p>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex">
+                            <img style="height: 50px;" src="images/Icon (4).svg" alt="">
+                            <div class="d-flex flex-column mx-2 justify-content-center">
+                                <h2 style="color: #4D4D4D; font-size: 20px;">2,245,341</h2>
+                                <p style="font-size: 10px; color: #4D4D4D;">Members</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mx-auto mt-2">
+                        <div class="col-6 d-flex">
+                            <img style="height: 50px;" src="images/Icon (5).svg" alt="">
+                            <div class="d-flex flex-column mx-2 justify-content-center">
+                                <h2 style="color: #4D4D4D; font-size: 20px;">828,867</h2>
+                                <p style="font-size: 10px; color: #4D4D4D;">Event Bookings</p>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex">
+                            <img style="height: 50px;" src="images/Icon (6).svg" alt="">
+                            <div class="d-flex flex-column mx-2 justify-content-center">
+                                <h2 style="color: #4D4D4D; font-size: 20px;">1,926,436</h2>
+                                <p style="font-size: 10px; color: #4D4D4D;">Payments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+       <!-- contact -->
+        <section id="contact">
+
+        </section>
+
+        <!-- footer -->
+        <footer>
+
+        </footer>
+
+</body>
+</html>
